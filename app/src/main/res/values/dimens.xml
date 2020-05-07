@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding">30dp</dimen>
+    <dimen name="top_bottom_padding">15dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="card_elevation">10dp</dimen>
+    <dimen name="btn_corner">8dp</dimen>
+</resources>

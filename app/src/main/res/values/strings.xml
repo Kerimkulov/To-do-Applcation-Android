@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ToDoApplication</string>
+    <string name="sign_in_label">Sign in</string>
+    <string name="enter_username">Enter username</string>
+    <string name="enter_password">Enter password</string>
+    <string name="link_sign_up">Don\'t have an account? Sign up</string>
+    <string name="sign_up_label">Sign up</string>
+    <string name="enter_name">Enter name</string>
+    <string name="repeat_password">Repeat password</string>
+    <string name="title">Title</string>
+    <string name="edit_btn">Edit</string>
+    <string name="mark_as_done_btn">Mark as done</string>
+    <string name="low_btn">Low</string>
+    <string name="medium_btn">Medium</string>
+    <string name="high_btn">High</string>
+    <string name="description">Description</string>
+
+    <string name="priority_label">Priority:</string>
+    <string name="add_item_btn">+ Add item</string>
+    <string name="due_date">Due date</string>
+    <string name="save_btn">Save</string>
+</resources>

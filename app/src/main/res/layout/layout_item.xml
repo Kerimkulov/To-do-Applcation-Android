@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="@dimen/card_elevation"
+    app:cardCornerRadius="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="@dimen/top_bottom_padding">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:padding="@dimen/top_bottom_padding">
+
+                <TextView
+                    android:id="@+id/note_title_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:textSize="25sp"
+                    tools:text="ToDo"/>
+
+                <TextView
+                    android:id="@+id/note_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:textSize="15sp"
+                    tools:text="text"/>
+
+                <TextView
+                    android:id="@+id/note_date_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:textSize="15sp"
+                    tools:text="date"/>
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/priority_color"
+            android:layout_width="15dp"
+            android:layout_height="150dp"
+            android:background="@android:color/black"
+            android:orientation="horizontal"
+            android:layout_gravity="end"/>
+</androidx.cardview.widget.CardView>
